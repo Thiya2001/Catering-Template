@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 58px;
+    background-color: whitesmoke;
+    position: fixed;
+}
+.left h1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.left{
+    padding-left: 10px;
+    width: 240px;
+}
+.right a{
+    padding: 10px 30px 10px 30px;
+    color: black;
+}
+ul{
+    display: flex;
+}
+
+.right ul{
+    list-style-type: none;
+}
+.right li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.left h1{
+    padding: 10px;
+    font-weight: lighter;
+    margin-top: 4px;
+    padding-left: 20px;
+}
+.right{
+    display: flex;
+    margin-left: 650px;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.top img {
+    margin-top: 8px;
+    width: 1349px;
+    height: 674px;
+}
+.t6{
+    margin-left: 25px;
+    margin-top: -70px;
+    font-size: 35px;
+    color: lightgrey;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.leftimg img{
+    float: left;
+    width: 501px;
+    height: 627px;
+    padding: 80px 50px 100px 150px;
+}   
+.rightpara h3{
+    padding-top: 100px;
+    padding-right: 150px;
+    font-size: 38px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.rightpara .para1{
+    font-size: 18px;
+    text-align: center;
+    padding-right: 130px;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
+.rightpara .para2{
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 150px;
+}
+.rightpara .para3{
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 150px;
+    color: rgb(134, 134, 134);
+}
+.rightpara .para2 span{
+    background-color: rgb(236, 230, 230);
+    padding: 4px;
+}
+hr{
+    width: 1347px;
+    height: 0.5px;
+    margin: 20px 0px;
+}
+.menu h3{   
+    padding-top: 120px;
+    font-size: 38px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-left: 200px;
+}
+.menu .para4{
+    font-size: larger;
+    letter-spacing: 5px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.menu .para5{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+    padding-left: 150px;
+}
+.menu img{
+    float: right;
+    padding: 65px 150px 100px 100px;
+}
+.contact h3{
+    padding-top: 70px;
+    font-size: 38px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    padding-left: 100px;
+}
+.contact .para6{
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 25px;
+}
+.contact .para7{
+    padding-left: 100px;
+    padding-top: 8px;
+    font-size: large;
+    color: #617d8b;
+    font-weight: bolder;
+}
+.contact .para8{
+    padding-left: 100px;
+    padding-top: 8px;
+}
+.contact hr{
+    width: 1050px;
+    height: 0px;
+}
+.form input{
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 90%;
+    border: none;
+}
+.form button{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.nav h1:hover{
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 8px 2px rgb(0, 0, 0);
+}
+.nav li a:hover{
+border-bottom: 1px solid black;
+border-radius: 10px;
+box-shadow: 5px 5px 2px black;
+}
+.footer{
+    display: flex;
+}
+.map{
+    padding: 220px 20px 20px 20px;
+}
+.form{
+    background-color: snow;
+    border: 1px solid black;
+    margin: 10px 10px 30px 100px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px black;
+}
